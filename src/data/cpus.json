@@ -2,7 +2,7 @@
   {
     "id": 7,
     "name": "Ryzen 3",
-    "src": "/images/r3.jpg",
+    "src": "images/r3.jpg",
     "price": 70,
     "currency": "EUR",
     "quantity": 1
@@ -11,7 +11,7 @@
   {
     "id": 8,
     "name": "Ryzen 5",
-    "src": "/images/r5.jpg",
+    "src": "images/r5.jpg",
     "price": 120,
     "currency": "EUR",
     "quantity": 1
@@ -19,7 +19,7 @@
   {
     "id": 9,
     "name": "Ryzen 7",
-    "src": "/images/r7.jpg",
+    "src": "images/r7.jpg",
     "price": 240,
     "currency": "EUR",
     "quantity": 1
@@ -27,7 +27,7 @@
   {
     "id": 10,
     "name": "Ryzen 9",
-    "src": "/images/r9.jpg",
+    "src": "images/r9.jpg",
     "price": 320,
     "currency": "EUR",
     "quantity": 1
