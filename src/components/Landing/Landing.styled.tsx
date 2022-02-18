@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeBanner = styled.div`
   width: 100%;
   height: 100vh;
-  background: url("/images/ryzen.jpg") center center/cover no-repeat;
+  background: url("images/ryzen.jpg") center center/cover no-repeat;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
