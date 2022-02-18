@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Dell 1",
-    "src": "/images/dell_1.jpg",
+    "src": "images/dell_1.jpg",
     "price": 500,
     "currency": "EUR",
     "quantity": 1
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Dell 2",
-    "src": "/images/dell_2.jpg",
+    "src": "images/dell_2.jpg",
     "price": 750.5,
     "currency": "EUR",
     "quantity": 1
@@ -19,7 +19,7 @@
   {
     "id": 3,
     "name": "HP 1",
-    "src": "/images/hp_1.jpg",
+    "src": "images/hp_1.jpg",
     "price": 1100,
     "currency": "EUR",
     "quantity": 1
@@ -27,7 +27,7 @@
   {
     "id": 4,
     "name": "HP 2",
-    "src": "/images/hp_2.jpg",
+    "src": "images/hp_2.jpg",
     "price": 849.39,
     "currency": "EUR",
     "quantity": 1
@@ -35,7 +35,7 @@
   {
     "id": 5,
     "name": "Lenovo",
-    "src": "/images/lenovo.jpg",
+    "src": "images/lenovo.jpg",
     "price": 730,
     "currency": "EUR",
     "quantity": 1
@@ -43,7 +43,7 @@
   {
     "id": 6,
     "name": "MacBook Air",
-    "src": "/images/mcbook.jpg",
+    "src": "images/mcbook.jpg",
     "price": 1200,
     "currency": "EUR",
     "quantity": 1
