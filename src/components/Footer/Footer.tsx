@@ -19,7 +19,11 @@ const Footer = () => {
           <LinkTo to="/contact">
             <InfoDiv>Kontakt</InfoDiv>
           </LinkTo>
-          <a href="https://github.com/slivos/falcon-eshop" target="_blank">
+          <a
+            href="https://github.com/slivos/falcon-eshop"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <GitHub />
           </a>
         </FooterWrapper>
