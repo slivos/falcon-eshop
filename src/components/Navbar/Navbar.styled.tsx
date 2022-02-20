@@ -16,10 +16,6 @@ export const StyledNav = styled.nav`
   position: fixed;
   z-index: 100;
   padding: 5px 0px;
-
-  @media (max-width: ${({ theme }) => theme.mobileL}) {
-    padding: 10px 0px;
-  }
 `;
 
 export const NavUl = styled.ul`
@@ -84,6 +80,10 @@ export const Logo = styled(SvgFalcon)`
   width: 100%;
   font-size: 4em;
   transition: transform 0.5s;
+
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    font-size: 3.5em;
+  }
 `;
 
 export const LogoWrapper = styled.div`
@@ -110,6 +110,10 @@ export const LogoWrapper = styled.div`
   &:hover ${Logo} {
     transform: translateX(-70px);
   }
+
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    display: none;
+  }
 `;
 
 export const ShoppingBasket = styled(MdShoppingBasket)`
@@ -117,6 +121,10 @@ export const ShoppingBasket = styled(MdShoppingBasket)`
   color: #ffc300;
   cursor: pointer;
   margin-right: 10px;
+
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    margin-right: 0;
+  }
 
   &:hover {
     color: #ffd60a;
@@ -126,7 +134,7 @@ export const ShoppingBasket = styled(MdShoppingBasket)`
 export const RightContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -137,6 +145,10 @@ export const BasketWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-right: 40px;
+
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    margin-right: 20px;
+  }
 
   span {
     position: absolute;
@@ -150,5 +162,14 @@ export const BasketWrapper = styled.div`
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
+  }
+`;
+
+export const MobileLogoWrapper = styled.div`
+  display: none;
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;

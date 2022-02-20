@@ -24,7 +24,9 @@ export const CartWrapper = styled.div`
 `;
 
 export const CartWrapperEmpty = styled(CartWrapper)`
-  align-items: center;
+  @media (max-width: ${({ theme }) => theme.mobileL}) {
+    text-align: center;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -53,6 +55,11 @@ export const TextEmpty = styled.span`
     background-color: #019fb6;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
+
+    @media (max-width: 908px) {
+      width: 50%;
+      left: 25%;
+    }
   }
 
   &:hover::after {
@@ -86,6 +93,12 @@ export const TextPrice = styled.span`
   font-weight: 700;
   color: #003566;
 
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   strong {
     color: black;
   }
@@ -101,6 +114,12 @@ export const EmptyBtn = styled.button`
   cursor: pointer;
   text-align: center;
   transition: color 0.3s ease;
+
+  @media (max-width: ${({ theme }) => theme.mobileS}) {
+    padding: 6px 0;
+    width: 110px;
+    font-weight: 700;
+  }
 
   &:hover {
     color: #ffd60a;

@@ -36,6 +36,10 @@ export const Card = styled.div`
   &:hover {
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.8);
     transform: scale(1.05);
+
+    @media (max-width: ${({ theme }) => theme.mobileS}) {
+      transform: none;
+    }
   }
 `;
 

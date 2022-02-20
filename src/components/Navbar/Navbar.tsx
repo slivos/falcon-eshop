@@ -11,6 +11,7 @@ import {
   BasketWrapper,
   RightContainer,
   NavUl,
+  MobileLogoWrapper,
 } from "./Navbar.styled";
 import { useCart } from "../../contexts/CartContext";
 import SpiralMenu from "../SpiralMenu/Spiral";
@@ -43,6 +44,9 @@ const Navbar: React.FC = () => {
           <MenuItem>KONTAKT</MenuItem>
         </LinkTo>
       </NavUl>
+      <MobileLogoWrapper>
+        <Logo />
+      </MobileLogoWrapper>
       <RightContainer>
         <LogoWrapper>
           <Logo />
