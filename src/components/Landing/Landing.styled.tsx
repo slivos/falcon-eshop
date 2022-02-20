@@ -9,6 +9,10 @@ export const HomeBanner = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.mobileM}) {
+    background-attachment: initial;
+  }
 `;
 export const BannerWrapper = styled.div`
   background: rgba(21, 32, 64, 0.5);
